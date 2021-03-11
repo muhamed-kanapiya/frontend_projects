@@ -1,0 +1,124 @@
+.menu {
+    list-style: none;
+}
+
+.menu>li {
+    display: inline-block;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.menu>li>a:hover {
+    border-bottom: 3px solid #00539D;
+    text-decoration: none;
+    color: #00539D;
+
+}
+
+.menu>ul {
+    padding-top: 26px;
+    padding-bottom: 29px;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: #333;
+    padding-right: 65px;
+    display: block;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 29px;
+}
+
+nav {
+    background-color: white;
+    height: 80px;
+    margin: 9px 0px 9px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#logo {
+    padding-left: 153px;
+}
+
+header {
+    padding: 0px 153px 0px 153px;
+}
+
+.hero {
+    background-image: url("../img/hero1.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.hero>h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero>p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bb {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 35px;
+    background: linear-gradient(90deg, #00539D 0%, #3B9EE7 100%);
+    padding: 21px 20px;
+}
+
+.wb {
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 35px;
+    padding: 21px 20px;
+    background-color: transparent;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    min-width: 191px;
+    display: inline-block;
+    margin: 15px;
+}
